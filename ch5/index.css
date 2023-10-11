@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style:square
+    
+}
+li{
+    display: inline;
+    color: white;
+    font-size: 2vw;
+    padding: 0 15px;
+}
+header{
+    background-color: rgb(110, 230, 81);
+    height: 5vh;
+    padding: 25px;
+    position: sticky;
+    top: 0;
+}
+.container{
+    min-height: 200px;
+    background-color: red;
+}
+.box1{
+    height: 50px;
+    width: 50px;
+    background-color: blue;
+    float:right;
+}
+/* .box2{
+    height: 50px;
+    width: 50px;
+    background-color: red;
+    float:right;
+} */

@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  height: 50px;
+  background-color: black;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+  display: inline;
+}
+.navbar ul li {
+  display: inline-block;
+  margin: 20px 14px;
+  font-size: 20px;
+}
+.right {
+  background-color: red;
+  display: inline-block;
+  width: 50%;
+  height: 90vh;
+  /* visibility: hidden; */
+}
+
+.left {
+  background-color: green;
+  display: inline-block;
+  width: 50%;
+  height: 90vh;
+  /* display: none; */
+}
+
+footer {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: black;
+  color: white;
+  height: 50px;
+  padding: 10px;
+  text-transform: uppercase;
+  /* margin: 0px; */
+}

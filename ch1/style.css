@@ -1,0 +1,33 @@
+/*To select all element*/
+*{
+margin: 0;
+padding: 0;
+}
+
+
+/*Selecting Id*/
+#first{
+    background-color: red;
+    color: white;
+}
+
+
+/*Selecting Class*/
+.second{  
+    background-color: green;
+    color: white;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.border-purple{
+    border: 2px solid black;
+}
+
+/*to select class or id inside a tag*/
+
+p.i{
+    background-color: yellow;
+}

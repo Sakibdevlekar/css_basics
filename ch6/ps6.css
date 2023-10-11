@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(82, 71, 235);
+    color: white;
+}
+
+
+ul{
+    padding: 34px;
+}
+
+li{
+    list-style: none;
+    display: inline;
+    padding: 0 43px;
+}
+.display{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.right{
+    height: 80vh;
+    width: 40vw;
+    /* float: right; */
+    background-color: aquamarine;
+}
+.left{
+    height: 80vh;
+    width: 40vw;
+    /* float: left; */
+    background-color:blueviolet;
+}

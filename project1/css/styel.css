@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Open+Sans:ital,wght@1,300&display=swap');
+:root{
+    --main-bg-color:#2874f0;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    
+    background-color: var(--main-bg-color);
+}
+
+nav{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 30px;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+nav ul {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.logo img{
+    padding: 0 23px;
+}
+
+
+.searchBar{
+    display:flex;
+    align-items: center;
+    position:relative;
+    padding: 0 40px;
+}
+
+.searchBar input{
+    width: 30vw;
+    height: 30px;
+    border-radius: 4px;
+    margin: 0 10px;
+}
+.searchBar .img {
+    width: 25px;
+    height:25px;
+    padding: 16px;
+    align-items: center;
+    position: absolute;
+}
+
+.searchBar button{
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+}
+
+.slider{
+    text-align: center;
+    margin: 12px auto;
+    width: 90vw;
+}
+
+.cards{
+    max-width: 85vw;
+    margin: auto;
+    overflow: hidden;
+}
+
+.cards h2{
+    font-family: 'Lato', sans-serif;
+
+}
+
+.card-item{
+    display: inline flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 15px;
+}
+.card-item p{
+    text-align: center;
+    margin: 5px 0;
+}
+
+.all-cards{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+}
+
+@keyframes widthAnimate{
+    50%{
+        height:55px
+    }
+    100%{
+        height: 60px;
+    }
+}
+footer{
+    height: 12vh;
+    background-color:var(--main-bg-color);
+    color: rgb(207, 206, 206);
+    font-family: 'Lato', sans-serif;
+/* font-family: 'Open Sans', sans-serif; */
+}
+
+

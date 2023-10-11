@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    .container{
+        background-color: aquamarine;
+        height: 100vh;
+        display: flex;
+        /* justify-content: center; */
+        /* align-items: center; */
+    }
+    .box{
+        margin: 0;
+        padding: 0;
+        width: 50px;
+        height: 50px;
+        /* border: 2px solid black; */
+        display: inline-block;
+        /* align-items: center; */
+        /* background-color: red */
+        /* transform: translate(34px) rotate(90deg); */
+        /* transform-origin:center ;  */
+        /* transform: scale(4,100); */
+        /* transform: skew(4deg,40deg); */
+    }
+
+    img{
+        /* width: '10px'; */
+        /* min-width:"140px"; 
+        min-height:"140px"; */
+        border-radius: 50%;
+        transition-property: width,height;
+        transition-duration: 0.5s;
+        /* transition-delay: 3s; */
+        transition-timing-function: ease-in;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img id ="myImg" src="./colorful-watercolor-rainbow.jpeg" width="140px" height="140px" alt="">
+        <button id="btn">Zoom In</button>
+        <br>
+        <br>
+        <button id="btn1">Zoom Out</button>
+        <br>
+        <br>
+        <button id="btn2">Reset</button>
+        </div>
+    </div>
+</body>
+<script >
+    btn.addEventListener("click",()=>{
+        myImg.style.width = `${myImg.offsetWidth+50}px`
+        myImg.style.height = `${myImg.offsetHeight+50}px`
+        console.log('width:',myImg.offsetWidth,'height:',myImg.offsetHeight );
+})
+
+btn1.addEventListener("click",()=>{
+        myImg.style.width = `${myImg.offsetWidth-50}px`
+        myImg.style.height = `${myImg.offsetHeight-50}px`
+        // console.log('here',myImg.offsetWidth );
+        console.log('width:',myImg.offsetWidth,'height:',myImg.offsetHeight );
+
+})
+
+btn2.addEventListener("click",()=>{
+        myImg.style.width = `140px`
+        myImg.style.height = `140px`
+        // console.log('here',myImg.offsetWidth );
+        console.log('width:',myImg.offsetWidth,'height:',myImg.offsetHeight );
+
+    })
+
+</script>
+</html>

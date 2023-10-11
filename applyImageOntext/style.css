@@ -1,0 +1,28 @@
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+h1{
+    text-align: center;
+    font-size: 200px;
+    font-weight: 900;
+    background-image: url(".//wallpaperflare.com_wallpaper\ \(1\).jpg");
+    background-size: cover;
+    background-position: center;
+    background-clip:text ;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* for custom  shape */
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100px;
+    background-color: rebeccapurple;
+    clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+}

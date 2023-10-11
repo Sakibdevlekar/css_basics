@@ -1,0 +1,16 @@
+.red{
+    /* background: red; */
+    /* color:white; */
+    /* height: 200px; */
+}
+.green{
+    /* background: green; */
+    /* color:white */
+}
+/* .bg-img{
+    background-image: url('./colorful-watercolor-rainbow.jpeg');
+} */
+body{
+    background-image: url('./colorful-watercolor-rainbow.jpeg');
+    background-repeat: no-repeat;
+}

@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    border: 2px solid white;
+    height: 34px;
+    background-color: black;
+    color: white;
+    height: 66px;
+}
+/* vh means view port hight */
+.content{
+    background-color: red;
+    height: 90vh;
+    padding: 20px;
+    margin: 30px;
+}
+
+footer{
+    background-color: purple;
+
+}
+.center{
+    text-align: center;
+}

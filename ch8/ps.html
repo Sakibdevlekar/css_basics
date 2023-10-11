@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS 8</title>
+</head>
+<style>
+        .Bar{
+            height: 2px;
+            width: 0px;
+        background-color: red;
+        animation: widthAnimate 1s ease-out  infinite;
+    }
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+    header{
+        background-color: rgb(168, 76, 243);
+        height: 80px;
+        width: 100vw;
+    }
+    main{
+        height: 1000px;
+        width: 100vw;
+        /* background-color: rgba(174, 94, 248, 0.5); */
+    }
+    .rotate{
+        animation: rotateAnimate 1s ease-in infinite;
+    }
+    .slide{
+        background-color: white ;
+        overflow: hidden;
+        width: 100vw;
+        height: 523px;
+        margin: auto;
+        display: flex;
+    }
+    .img1{
+        transform: translate(0vw);
+    }
+    .img2{
+        transform: translate(100vw);
+}
+    @keyframes widthAnimate{
+            0%{
+                width:0px
+            }
+            60%{
+                width:  50vw;
+            }
+            100%{
+                width:  100vw;
+            }
+        }
+
+        /* rotate animation  */
+        @keyframes rotateAnimate{ 
+            0%{
+                transform: rotate(0deg);
+            }
+            100%{
+            transform: rotate(360deg);
+            }
+        }
+</style>
+<body>
+    <div class="Bar"></div>
+    <header>
+        <img class="rotate" src="dragan.png" alt="" width="100vw">
+
+    </header>
+    <main>
+        <div class="slide">
+            <img class="img1" src="colorful-watercolor-rainbow.jpeg" width="100vw" height="100px">
+            <img class="img2" src="dragan.png" width="100vw" height="500px">
+        </div>
+    </main>
+</body>
+</html>
